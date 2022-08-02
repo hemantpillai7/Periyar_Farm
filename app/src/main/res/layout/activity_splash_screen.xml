@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashScreen">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash"
+        android:layout_marginTop="-100dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Periyar Farm"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/text">
+
+        <TextView
+            android:id="@+id/as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_below="@id/text"
+            android:text="Made In India"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imgflag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/flag"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

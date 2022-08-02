@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingBottom="20dp"
+    tools:context=".Fragment.offerFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save More with these Offers"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5% Cashback on Axix Bank Card"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save 100 on Your First Order"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"/>
+
+
+
+</LinearLayout>
